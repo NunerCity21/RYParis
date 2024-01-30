@@ -1,0 +1,443 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.whiteBackground {
+    color: black;
+    background-color: white;
+    width: 275px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#indexHeader {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12.5px 50px;
+    font-size: 20px;
+    color: black;
+    box-sizing: border-box;
+}
+
+.indexFooter {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12.5px 50px;
+    font-size: 20px;
+    color: black;
+    box-sizing: border-box;
+    margin-top: 1175px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+}
+
+.indexnav a {
+    color: black;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+
+.indexnav {
+    margin-right: 20px;
+}
+
+.firstPic {
+    margin-top: 3px;
+    position: relative;
+}
+
+.firstPic img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -30px;
+}
+
+.firstPictext {
+    position: absolute;
+    background-color: white;
+    bottom: 525px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px 25px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.everydayCategories {
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: white;
+    padding: 2% 3.5%;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.everydayCategories h1, .everydayCategories p {
+    margin: 5px;
+}
+
+.everydayCategories p {
+    font-size: large;
+}
+
+.imageContainers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imageContainertext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 75px;
+}
+
+.imageContainer {
+    width: 375px;
+    height: 325px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#BI {
+    background-image: url("../Images/breakfast-ideas.jpg");
+}
+
+#VI {
+    background-image: url("../Images/vegetarian-ideas.jpg");
+}
+
+#CWD {
+    background-image: url("../Images/cold-weather-dinners.jpeg");
+}
+
+.healthyRecipes {
+    position: absolute;
+    bottom: -550px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #DADFEA;
+    padding: 3.5% 5%;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.healthyRecipes h1, .healthyRecipes p {
+    margin: 5px;
+}
+
+.healthyRecipes p {
+    font-size: large;
+}
+
+#Div2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#Div2Text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    padding: 0 2px;
+}
+
+.imageContainer2 {
+    width: 270px;
+    height: 225px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#FP {
+    background-image: url("../Images/fajita-peppers.jpeg");
+}
+
+#M {
+    background-image: url("../Images/muffins.jpeg");
+}
+
+#EP {
+    background-image: url("../Images/eggplant-parmesan.jpg");
+}
+
+#VLI {
+    background-image: url("../Images/Vegetarian-Lunch-Ideas.jpg");
+}
+
+.whereToEat {
+    position: absolute;
+    bottom: -1150px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: white;
+    padding: 2% 5%;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.whereToEat h1, .whereToEat p {
+    margin: 5px;
+}
+
+.whereToEat p {
+    font-size: large;
+}
+
+#Div3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#Div3Text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 75px;
+    margin-right: 55px;
+}
+
+.imageContainer3 {
+    width: 375px;
+    height: 325px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#B {
+    background-image: url("../Images/burger.jpg");
+}
+
+#P {
+    background-image: url("../Images/pizza.jpeg");
+}
+
+#CWW {
+    background-image: url("../Images/Cold-Weather-Weeknight.jpeg");
+}
+
+.hamburger {
+    position: relative;
+}
+
+.hamburger img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -30px;
+}
+
+.hamburgerText {
+    position: absolute;
+    background-color: white;
+    bottom: 325px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px 25px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.time {
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #DADFEA;
+    padding: 2% 3.5%;
+    box-sizing: border-box;
+}
+
+.time h2 {
+    margin: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.timeText {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeText p {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.timeText p span:not(.notBold) {
+    margin-right: 10px;
+}
+
+.review {
+    position: absolute;
+    bottom: -250px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: white;
+    padding: 2% 3.5%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.review h1 {
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+#numofr {
+    margin-left: 10px;
+}
+
+.checked {
+    color: #A63223;
+}
+
+.saveReview {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.button {
+    background-color: #A63223;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+#print {
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.prints {
+    padding: 10px 5px;
+    padding-right: 10px;
+    border-radius: 45px;
+    border: 2px solid #000000;
+    margin-left: 15px;
+}
+
+.quote {
+    background-color: #EEF0F4;
+    position: absolute;
+    bottom: -450px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    padding: 2% 3.5%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    padding:20px 80px;
+    position: absolute;
+    bottom: -1550px;
+}
+
+.ingredients {
+    font-size:20px;
+    font-weight:500;
+}
+
+.ingredients ul {
+    margin-bottom: -10px;
+}
+
+.ingredients h3 {
+    font-size:28px;
+    font-weight:800;
+    padding-left:30px;
+}
+
+.spicemix {
+    margin-top:-20px;
+}
+
+.spicemix h5 {
+    font-size:18px;
+    font-weight:800;
+    padding-left:36px;
+}
+
+.directions {
+    font-size:20px;
+    font-weight:500;
+}
+
+.directions li {
+    padding-bottom: 20px;
+}
+
+.directions span {
+    font-weight:600;
+}
+
+#secondFooter {
+    margin-top: 2000px;
+}
+
+.video {
+    display:flex;
+    position: absolute;
+    justify-content: center;
+    position: absolute;
+    bottom: -1900px;
+    left: 50%;
+    transform: translateX(-50%);
+}
